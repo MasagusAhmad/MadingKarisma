@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Karisma Site's</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <script src="https://kit.fontawesome.com/29575beb59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <div id="header">
+        <!--Navigation-->
+        <div id="nav-button">
+            <a onclick="openNav()"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <!--TITLE-->
+        <div id="title">
+            <p>
+                <b>KARISMA</b>Mading 35
+            </p>
+        </div>
+    </div>
+    <!--Navigation Content-->
+    <div id="nav-content">
+        <a class="nav-links close" href="#" onclick="closeNav()"><i class="fa-solid fa-arrow-left"></i>Close</a>
+        <a class="nav-links" href="#"><i class="fa-solid fa-house"></i>Home</a>
+        <a class="nav-links" href="#"><i class="fa-solid fa-globe"></i>News</a>
+        <a class="nav-links" href="#"><i class="fa-solid fa-bell"></i>Announcements</a>
+        <a class="nav-links" href="#"><i class="fa-solid fa-layer-group"></i>Extraculliculars</a>
+        <a class="nav-links" href="#"><i class="fa-solid fa-gamepad"></i>Minigames</a>
+        <a class="nav-links" href="#"><i class="fa-solid fa-book"></i>Literation</a>
+        <a class="nav-links" href="#"><i class="fa-solid fa-hammer"></i>Workshop</a>
+        <a class="nav-links" href="#"><i class="fa-solid fa-user"></i>About Us</a>
+    </div>
+
+    <!--POSTERS-->
+    <!--Posters Information-->
+    <div id="poster-text">
+        <div class="posters-info">
+            <h1 class="function-title">WADAH BEREKSPRESI</h1>
+            <p>Mading ini sebagai wadah semua anggota ekskul Mading Karisma dan seluruh warga SMAN 35 untuk berekspresi menuangkan segala ide kretif siswa/i yang akan diimplementasikan di dalam Mading 35</p>
+        </div>
+        <div class="posters-info">
+            <h1 class="function-title">KOLABORASI</h1>
+            <p>Mading sebagai jalur penghubung dengan berbagai ekstrakulikuler lainnya untuk berkolaborasi dan melangkah maju bersama</p>
+        </div>
+    </div>
+    <!--Posters Image-->
+    <div id="poster">
+        <img class="posters" src="image/poster_1.png" />
+        <img class="posters" src="image/poster_2.png" />
+    </div>
+    <!--POSTERS CONTROLLER-->
+    <div id="poster-controller">
+        <button class="poster-button left" onclick="changePoster(-1)" style="float: left;"><i class="fa-solid fa-chevron-left"></i>PREV</button>
+        <button class="poster-button right" onclick="changePoster(1)" style="float: right;">NEXT<i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    
+    <!--NEWS-->
+    <!--ANNOUNCEMENTS-->
+    <!--EXTRACULLICULARS-->
+    <!--MINIGAMES-->
+    <!--LITERATIONS-->
+    <!--WORKSHOP-->
+    <!--ABOUT US-->
+    
+    <!--FOOTER-->
+    <footer id="footer">
+        <!--Social Media-->
+        <h1 class="social-header">SOCIAL MEDIA</h1>
+        <div id="social-media">
+            <div class="medias">
+                <p>SMAN 35:</p>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>E-mail</a>
+                <a href="#"><i class="fa-solid fa-globe"></i>Sites</a>
+            </div>
+            <div class="medias">
+                <p>MADING KARISMA:</p>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>E-mail</a>
+                <a href="#"><i class="fa-solid fa-globe"></i>Sites</a>
+            </div>
+        </div>
+        <!--Copyright-->
+        <p id="copyright">Copyright &copy; 2024, <b>Mading Karisma</b>, All right reserved</p>
+    </footer>
+    
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
