@@ -34,6 +34,9 @@
 .content-div {
     padding-inline: 16px;
     font-size: 0.6em;
+    width: 100%;
+    padding-block: 30px;
+    margin-block: 30px;
 }
 #header {
     width: 100%;
@@ -111,11 +114,17 @@
 #poster-controller .poster-button:hover {
     background: var(--primary_hover);
 }
-#about-us {
-    width: 100%;
+#news {
     background-color: var(--primary);
-    padding-block: 30px;
-    margin-block: 30px;
+}
+#excull {
+    background-color: var(--primary);
+}
+#literation {
+    background-color: var(--primary);
+}
+#about-us {
+    background-color: var(--primary);
 }
 #footer {
     background: var(--primary);
